@@ -1,12 +1,12 @@
-function selectElementsStartingWithA() { 
+function selectElementsStartingWithA() {
   // code here
 }
 
 function selectElementsStartingWithAVowel() {
-  // code here
+ return (/^[aeiou]$/i);
  }
 
-function removeNullsFromArray() { 
+function removeNullsFromArray() {
   // code here
 }
 
@@ -14,11 +14,11 @@ function removeNilsAndFalseFromAnArray() {
   // code here
 }
 
-function reverseElementsInArray() { 
+function reverseElementsInArray() {
   // code here
 }
 
-function allElementsExceptFirstThree() { 
+function allElementsExceptFirstThree() {
   // code here
 }
 
@@ -38,7 +38,7 @@ function makeNumberNegative() {
   // code here
 }
 
-function separateNumbersIntoEvenAndOdd() { 
+function separateNumbersIntoEvenAndOdd() {
   // code here
 }
 
