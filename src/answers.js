@@ -7,12 +7,12 @@ function selectElementsStartingWithAVowel() {
  }
 
 function removeNullsFromArray(n) {
-  var newArray = [];
-  for (var i = 0; i < n.length; i++) {
-   if (n[i] !== undefined && n[i] !== null && n[i] !== "") {
-    newArray.push(n[i]);
-   }
-  }
+  // var newArray = [];
+  // for (var i = 0; i < n.length; i++) {
+  //  if (n[i] !== undefined && n[i] !== null && n[i] !== "") {
+  //   newArray.push(n[i]);
+  //  }
+  // }
 }
 
 function removeNilsAndFalseFromAnArray() {
@@ -20,8 +20,8 @@ function removeNilsAndFalseFromAnArray() {
 }
 
 function reverseElementsInArray(array) {
-  return array.reverse();
-}
+//   return array.reverse();
+// }
 
 function allElementsExceptFirstThree() {
 
