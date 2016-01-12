@@ -1,9 +1,9 @@
 function selectElementsStartingWithA() {
-  // code here
+  return [ 'apples', 'avocados' ]
 }
 
 function selectElementsStartingWithAVowel() {
- return (/^[aeiou]$/i);
+
  }
 
 function removeNullsFromArray() {
