@@ -1,25 +1,30 @@
 function selectElementsStartingWithA() {
-  return [ 'apples', 'avocados' ]
+
 }
 
 function selectElementsStartingWithAVowel() {
 
  }
 
-function removeNullsFromArray() {
-  // code here
+function removeNullsFromArray(n) {
+  var newArray = [];
+  for (var i = 0; i < n.length; i++) {
+   if (n[i] !== undefined && n[i] !== null && n[i] !== "") {
+    newArray.push(n[i]);
+   }
+  }
 }
 
 function removeNilsAndFalseFromAnArray() {
   // code here
 }
 
-function reverseElementsInArray() {
-  // code here
+function reverseElementsInArray(array) {
+  return array.reverse();
 }
 
 function allElementsExceptFirstThree() {
-  // code here
+
 }
 
 function addElementsToBeginningOfArray() {
@@ -34,8 +39,8 @@ function getFirstHalfOfString() {
   // code here
 }
 
-function makeNumberNegative() {
-  // code here
+function makeNumberNegative(a) {
+  return Math.abs(a);
 }
 
 function separateNumbersIntoEvenAndOdd() {

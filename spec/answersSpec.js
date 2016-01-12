@@ -1,6 +1,6 @@
 describe('JavaScript Refresher', function() {
   var n, a, b;
- 
+
   it('selects elements starting with a', function() {
     n = selectElementsStartingWithA(['bananas', 'apples', 'pears', 'avocados']);
 
@@ -20,11 +20,11 @@ describe('JavaScript Refresher', function() {
     expect(n).toEqual(['a', 'b', false, 'c']);
   });
 
-  it('removes nils and false from an array', function() { 
+  it('removes nils and false from an array', function() {
     n = removeNilsAndFalseFromAnArray(['a', 'b', null, null, false, 'c', null]);
 
     expect(n).toEqual(['a', 'b', 'c'])
-  })
+  });
 
   it('reverses every element in an array', function() {
     n = reverseElementsInArray(['dog', 'monkey', 'elephant']);
