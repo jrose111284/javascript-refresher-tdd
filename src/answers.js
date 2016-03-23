@@ -1,18 +1,31 @@
-function selectElementsStartingWithA() {
-
+function selectElementsStartingWithA(n) {
+  var array = [];
+  for (var i = 0; i < n.length; i++) {
+    var a = n[i].split('');
+    if (a[0] == 'a') {
+      array.push(n[i]);
+    }
+  }
+  return array;
 }
 
-function selectElementsStartingWithAVowel() {
+function selectElementsStartingWithAVowel(vowel) {
+  array = [];
+  volArr = ['a', 'e', 'i', 'o', 'u']
 
- }
+  for (var i = 0; i < vowel.length; i++) {
+    var a = vowel[i].split('');
+    for (var j = 0; j < volArr.length; j++) {
+      if (a[0] === volArr[j]) {
+        array.push(vowel[i]);
+      }
+    }
+  }
+  return array;
+}
 
 function removeNullsFromArray(n) {
-  // var newArray = [];
-  // for (var i = 0; i < n.length; i++) {
-  //  if (n[i] !== undefined && n[i] !== null && n[i] !== "") {
-  //   newArray.push(n[i]);
-  //  }
-  // }
+
 }
 
 function removeNilsAndFalseFromAnArray() {
@@ -20,8 +33,8 @@ function removeNilsAndFalseFromAnArray() {
 }
 
 function reverseElementsInArray(array) {
-//   return array.reverse();
-// }
+
+}
 
 function allElementsExceptFirstThree() {
 
