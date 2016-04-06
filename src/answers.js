@@ -24,8 +24,11 @@ function selectElementsStartingWithAVowel(vowel) {
   return array;
 }
 
-function removeNullsFromArray(n) {
-
+function removeNullsFromArray(array) {
+  for(var i = array.length -1; i--;){
+  	if (array[i] === null) array.splice(i, 1);
+  }
+  return array;
 }
 
 function removeNilsAndFalseFromAnArray() {
@@ -40,8 +43,8 @@ function allElementsExceptFirstThree() {
 
 }
 
-function addElementsToBeginningOfArray() {
-  // code here
+function addElementsToBeginningOfArray(array) {
+
 }
 
 function sortWordsByLastLetter() {
@@ -72,8 +75,11 @@ function longestWordInArray() {
   // code here
 }
 
-function totalOfNumbers() {
-  // code here
+function totalOfNumbers(arr) {
+  var i = arr.length;
+  var sum = 0;
+  while (--i) sum += arr[i];
+  return arr;
 }
 
 function doubleArray() {
@@ -93,11 +99,11 @@ function removeCapitaLetters() {
 }
 
 function roundUp() {
-  // code here
+
 }
 
-function roundDown() {
-  // code here
+function roundDown(number) {
+
 }
 
 function formatDateNicely() {
