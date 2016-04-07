@@ -25,18 +25,21 @@ function selectElementsStartingWithAVowel(vowel) {
 }
 
 function removeNullsFromArray(array) {
-  for(var i = array.length -1; i--;){
-  	if (array[i] === null) array.splice(i, 1);
+  for (var i = 0; i < array.length; i++) {
+    if (array[i] === null) array.splice(i, 2);
   }
   return array;
 }
 
-function removeNilsAndFalseFromAnArray() {
-  // code here
+function removeNilsAndFalseFromAnArray(array) {
+  for (var i = 0; i < array.length; i++) {
+    if (array[i] == null || array[i] == false) array.splice(i, 3);
+  }
+  return array;
 }
 
 function reverseElementsInArray(array) {
-
+  
 }
 
 function allElementsExceptFirstThree() {
