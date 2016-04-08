@@ -48,11 +48,11 @@ function reverseElementsInArray(array) {
 }
 
 function allElementsExceptFirstThree(array) {
-
+  return array.splice(-4);
 }
 
 function addElementsToBeginningOfArray(array) {
-  
+
 }
 
 function sortWordsByLastLetter() {
