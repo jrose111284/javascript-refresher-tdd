@@ -39,15 +39,20 @@ function removeNilsAndFalseFromAnArray(array) {
 }
 
 function reverseElementsInArray(array) {
-  
+  var arr = []
+  for (var i = 0; i < array.length; i++) {
+    var a = array[i].split("").reverse().join("");
+    arr.push(a);
+  }
+  return arr;
 }
 
-function allElementsExceptFirstThree() {
+function allElementsExceptFirstThree(array) {
 
 }
 
 function addElementsToBeginningOfArray(array) {
-
+  
 }
 
 function sortWordsByLastLetter() {
@@ -102,11 +107,11 @@ function removeCapitaLetters() {
 }
 
 function roundUp() {
-
+  // code here
 }
 
-function roundDown(number) {
-
+function roundDown() {
+  // code here
 }
 
 function formatDateNicely() {
