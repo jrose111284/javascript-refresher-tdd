@@ -52,7 +52,8 @@ function allElementsExceptFirstThree(array) {
 }
 
 function addElementsToBeginningOfArray(array) {
-
+  array.unshift(1);
+  return array
 }
 
 function sortWordsByLastLetter() {
