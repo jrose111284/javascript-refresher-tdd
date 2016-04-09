@@ -107,8 +107,8 @@ function removeCapitaLetters() {
   // code here
 }
 
-function roundUp() {
-  // code here
+function roundUp(number) {
+  return Math.round(number);
 }
 
 function roundDown() {
