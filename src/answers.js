@@ -68,65 +68,74 @@ function makeNumberNegative(a) {
   return Math.abs(a);
 }
 
-function separateNumbersIntoEvenAndOdd() {
-  // code here
-}
+function separateNumbersIntoEvenAndOdd(array) {
+  var evens = []
+  var odds = []
+  for (var i = 0; i < array.length; i++) {
+    if ((array[i] % 2) === 1) {
+        odds.push(array[i]);
+      } else {
+        evens.push(array[i]);
+      }
+    }
+    return ([evens, odds]);
+  }
 
-function countNumberOfPalindromes() {
-  // code here
-}
+  function countNumberOfPalindromes() {
+    // code here
+  }
 
-function shortestWordInArray() {
-  // code here
-}
+  function shortestWordInArray() {
+    // code here
+  }
 
-function longestWordInArray() {
-  // code here
-}
+  function longestWordInArray() {
+    // code here
+  }
 
-function totalOfNumbers(arr) {
-  var i = arr.length;
-  var sum = 0;
-  while (--i) sum += arr[i];
-  return arr;
-}
+  function totalOfNumbers(arr) {
+    var i = arr.length;
+    var sum = 0;
+    while (--i) sum += arr[i];
+    return arr;
+  }
 
-function doubleArray() {
-  // code here
-}
+  function doubleArray() {
+    // code here
+  }
 
-function getElementsUntilGreaterThanFive() {
-  // code here
-}
+  function getElementsUntilGreaterThanFive() {
+    // code here
+  }
 
-function getAllLetters() {
-  // code here
-}
+  function getAllLetters() {
+    // code here
+  }
 
-function removeCapitaLetters() {
-  // code here
-}
+  function removeCapitaLetters() {
+    // code here
+  }
 
-function roundUp(number) {
-  return Math.round(number);
-}
+  function roundUp(number) {
+    return Math.round(number);
+  }
 
-function roundDown() {
-  // code here
-}
+  function roundDown() {
+    // code here
+  }
 
-function formatDateNicely() {
-  // code here
-}
+  function formatDateNicely() {
+    // code here
+  }
 
-function getDomainName() {
-  // code here
-}
+  function getDomainName() {
+    // code here
+  }
 
-function titleizeString() {
-  // code here
-}
+  function titleizeString() {
+    // code here
+  }
 
-function getSquareRoot() {
-  // code here
-}
+  function getSquareRoot() {
+    // code here
+  }
