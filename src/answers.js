@@ -159,5 +159,5 @@ function titleizeString() {
 }
 
 function getSquareRoot(number) {
-
+  return Math.sqrt(number);
 }
