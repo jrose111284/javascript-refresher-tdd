@@ -56,12 +56,25 @@ function addElementsToBeginningOfArray(array) {
   return array
 }
 
-function sortWordsByLastLetter() {
-  // code here
+function sortWordsByLastLetter(array) {
+  var arr = [];
+  var arrTwo = [];
+
+  for (var i = 0; i < array.length; i++) {
+    var a = array[i].split("").reverse().join("");
+    arr.push(a);
+    arr.sort();
+  }
+
+  for (var j = 0; j < arr.length; j++) {
+    var b = arr[j].split("").reverse().join("");
+    arrTwo.push(b);
+  }
+  return arrTwo;
 }
 
-function getFirstHalfOfString() {
-  // code here
+function getFirstHalfOfString(string) {
+
 }
 
 function makeNumberNegative(a) {
@@ -69,73 +82,64 @@ function makeNumberNegative(a) {
 }
 
 function separateNumbersIntoEvenAndOdd(array) {
-  var evens = []
-  var odds = []
-  for (var i = 0; i < array.length; i++) {
-    if ((array[i] % 2) === 1) {
-        odds.push(array[i]);
-      } else {
-        evens.push(array[i]);
-      }
-    }
-    return ([evens, odds]);
-  }
 
-  function countNumberOfPalindromes() {
-    // code here
-  }
+}
 
-  function shortestWordInArray() {
-    // code here
-  }
+function countNumberOfPalindromes(array) {
 
-  function longestWordInArray() {
-    // code here
-  }
+}
 
-  function totalOfNumbers(arr) {
-    var i = arr.length;
-    var sum = 0;
-    while (--i) sum += arr[i];
-    return arr;
-  }
+function shortestWordInArray() {
+  // code here
+}
 
-  function doubleArray() {
-    // code here
-  }
+function longestWordInArray() {
+  // code here
+}
 
-  function getElementsUntilGreaterThanFive() {
-    // code here
-  }
+function totalOfNumbers(arr) {
+  var i = arr.length;
+  var sum = 0;
+  while (--i) sum += arr[i];
+  return arr;
+}
 
-  function getAllLetters() {
-    // code here
-  }
+function doubleArray() {
+  // code here
+}
 
-  function removeCapitaLetters() {
-    // code here
-  }
+function getElementsUntilGreaterThanFive() {
+  // code here
+}
 
-  function roundUp(number) {
-    return Math.round(number);
-  }
+function getAllLetters() {
+  // code here
+}
 
-  function roundDown() {
-    // code here
-  }
+function removeCapitaLetters() {
+  // code here
+}
 
-  function formatDateNicely() {
-    // code here
-  }
+function roundUp(number) {
 
-  function getDomainName() {
-    // code here
-  }
+}
 
-  function titleizeString() {
-    // code here
-  }
+function roundDown(number) {
 
-  function getSquareRoot() {
-    // code here
-  }
+}
+
+function formatDateNicely() {
+  // code here
+}
+
+function getDomainName() {
+  // code here
+}
+
+function titleizeString() {
+  // code here
+}
+
+function getSquareRoot(number) {
+  
+}
