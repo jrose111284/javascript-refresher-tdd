@@ -74,7 +74,9 @@ function sortWordsByLastLetter(array) {
 }
 
 function getFirstHalfOfString(string) {
-
+  var a = string.match(/[a-zA-Z]/g).length;
+  var b = Math.round(a / 2);
+  return string.substr(0, b);
 }
 
 function makeNumberNegative(a) {
@@ -141,5 +143,5 @@ function titleizeString() {
 }
 
 function getSquareRoot(number) {
-  
+
 }
