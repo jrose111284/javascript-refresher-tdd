@@ -98,7 +98,13 @@ function separateNumbersIntoEvenAndOdd(array) {
 }
 
 function countNumberOfPalindromes(array) {
-
+  arr = []
+  for (var i = 0; i < array.length; i++) {
+    if (array[i] == array[i].split("").reverse().join("")) {
+      arr.push(array[i]);
+    }
+  }
+    return arr.length;
 }
 
 function shortestWordInArray() {
