@@ -139,7 +139,7 @@ function removeCapitaLetters() {
 }
 
 function roundUp(number) {
-
+  return Math.ceil(number);
 }
 
 function roundDown(number) {
