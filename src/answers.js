@@ -143,7 +143,7 @@ function roundUp(number) {
 }
 
 function roundDown(number) {
-
+  return Math.floor(number);
 }
 
 function formatDateNicely() {
