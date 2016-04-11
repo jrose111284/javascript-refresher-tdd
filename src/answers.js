@@ -84,6 +84,16 @@ function makeNumberNegative(a) {
 }
 
 function separateNumbersIntoEvenAndOdd(array) {
+  var evens = []
+  var odds = []
+  for (var i = 0; i < array.length; i++) {
+    if ((array[i] % 2) === 1) {
+      odds.push(array[i]);
+    } else {
+      evens.push(array[i]);
+    }
+  }
+  return ([evens, odds]);
 
 }
 
