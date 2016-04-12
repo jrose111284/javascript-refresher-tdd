@@ -142,7 +142,12 @@ function totalOfNumbers(arr) {
 }
 
 function doubleArray(array) {
-
+  var arr = [];
+   for (var i = 0; i < array.length; i++) {
+       arr.push(array[i]);
+   }
+   var newArray = array.concat(arr);
+   return newArray;
 }
 
 function getElementsUntilGreaterThanFive() {
