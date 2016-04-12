@@ -155,7 +155,12 @@ function getElementsUntilGreaterThanFive() {
 }
 
 function getAllLetters(array) {
+  arr = []
 
+   for (var i = 0; i < array.length; i++) {
+       arr.push(array[i].split('').join(','));
+   }
+     return arr;
 }
 
 function removeCapitaLetters(string) {
