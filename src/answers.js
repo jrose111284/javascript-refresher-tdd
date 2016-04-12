@@ -134,7 +134,11 @@ function longestWordInArray(arr) {
 }
 
 function totalOfNumbers(arr) {
-
+  var total = 0;
+    for (var i in arr) {
+        total += arr[i];
+    }
+    return total;
 }
 
 function doubleArray(array) {
