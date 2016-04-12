@@ -79,7 +79,7 @@ describe('JavaScript Refresher', function() {
   });
 
   it('gets the shortest word in an array', function() {
-    n = shortestWordInArray('here', 'is', 'a', 'bunch', 'of', 'words');
+    n = shortestWordInArray('a', 'is', 'here', 'bunch', 'of', 'words');
 
     expect(n).toEqual('a');
   });
