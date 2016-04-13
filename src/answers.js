@@ -120,21 +120,21 @@ function shortestWordInArray(arr) {
 }
 
 function longestWordInArray(arr) {
-  var lgth = 0;
-     var longest;
+    var lgth = 0;
+    var longest;
 
-     for (var i = 0; i < arr.length; i++) {
-         if (arr[i].length > lgth) {
-             var lgth = arr[i].length;
-             longest = arr[i];
-         }
-         return longest;
-     }
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i].length > lgth) {
+            var lgth = arr[i].length;
+            longest = arr[i];
+        }
+        return longest;
+    }
 
 }
 
 function totalOfNumbers(arr) {
-  var total = 0;
+    var total = 0;
     for (var i in arr) {
         total += arr[i];
     }
@@ -142,29 +142,37 @@ function totalOfNumbers(arr) {
 }
 
 function doubleArray(array) {
-  var arr = [];
-   for (var i = 0; i < array.length; i++) {
-       arr.push(array[i]);
-   }
-   var newArray = array.concat(arr);
-   return newArray;
+    var arr = [];
+    for (var i = 0; i < array.length; i++) {
+        arr.push(array[i]);
+    }
+    var newArray = array.concat(arr);
+    return newArray;
 }
 
-function getElementsUntilGreaterThanFive() {
-    // code here
+function getElementsUntilGreaterThanFive(array) {
+    arr = [];
+    for (var i = 0; i < array.length; i++) {
+        if (array[i] <= 5) {
+            arr.push(array[i])
+        } else {
+            break;
+        }
+    }
+    return arr;
 }
 
 function getAllLetters(array) {
-  arr = []
+    arr = []
 
-   for (var i = 0; i < array.length; i++) {
-       arr.push(array[i].split('').join(','));
-   }
-     return arr;
+    for (var i = 0; i < array.length; i++) {
+        arr.push(array[i].split('').join(','));
+    }
+    return arr;
 }
 
 function removeCapitaLetters(string) {
-  // code here
+    // code here
 }
 
 function roundUp(number) {
@@ -176,7 +184,7 @@ function roundDown(number) {
 }
 
 function formatDateNicely() {
-  // code here
+    // code here
 }
 
 function getDomainName() {
