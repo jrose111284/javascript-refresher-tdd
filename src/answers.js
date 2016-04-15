@@ -190,7 +190,7 @@ function formatDateNicely(value) {
 }
 
 function getDomainName(string) {
-    // code here
+     return string.split('@')[1];
 }
 
 function titleizeString(string) {
