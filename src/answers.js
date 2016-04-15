@@ -166,13 +166,13 @@ function getAllLetters(array) {
     arr = []
 
     for (var i = 0; i < array.length; i++) {
-        arr.push(array[i].split('').join(','));
-    }
-    return arr;
+        arr.push(array[i].split(''));
+    };
+    return arr.concat.apply([], arr).sort();
 }
 
 function removeCapitaLetters(string) {
-    // code here
+  // code here
 }
 
 function roundUp(number) {
@@ -183,11 +183,11 @@ function roundDown(number) {
     return Math.floor(number);
 }
 
-function formatDateNicely() {
+function formatDateNicely(value) {
     // code here
 }
 
-function getDomainName() {
+function getDomainName(string) {
     // code here
 }
 
