@@ -172,7 +172,7 @@ function getAllLetters(array) {
 }
 
 function removeCapitaLetters(string) {
-  // code here
+   return string.replace(/[^A-Z]/g, '');
 }
 
 function roundUp(number) {
