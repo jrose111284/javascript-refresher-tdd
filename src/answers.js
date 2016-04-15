@@ -184,7 +184,9 @@ function roundDown(number) {
 }
 
 function formatDateNicely(value) {
-    // code here
+  var value = new Date();
+  return value.getMonth()+1 + "/" + value.getDate() + "/" + value.getFullYear();
+
 }
 
 function getDomainName(string) {
