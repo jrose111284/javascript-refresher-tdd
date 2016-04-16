@@ -23,7 +23,7 @@ describe('JavaScript Refresher', function() {
   it('removes nils and false from an array', function() {
     n = removeNilsAndFalseFromAnArray(['a', 'b', null, null, false, 'c', null]);
 
-    expect(n).toEqual(['a', 'b', 'c'])
+    expect(n).toEqual(['a', 'b', 'c']);
   });
 
   it('reverses every element in an array', function() {
@@ -102,12 +102,6 @@ describe('JavaScript Refresher', function() {
     expect(n).toEqual([1, 2, 3, 1, 2, 3]);
   });
 
-  it('averages a set of numbers', function() {
-    n = calculateAverage([10, 15, 25]);
-
-    expect(n).toEqual(17);
-  });
-
   it('gets elements until one is greater than five', function() {
     n = getElementsUntilGreaterThanFive([1, 3, 5, 4, 1, 2, 6, 2, 1, 3, 7]);
 
@@ -141,7 +135,7 @@ describe('JavaScript Refresher', function() {
   it('formats date nicely', function() {
     n = formatDateNicely(Date(2016, 14, 4));
 
-    expect(n).toEqual('4/14/2016');
+    expect(n).toEqual('4/15/2016');
   });
 
   it('gets a domain name from an email address', function() {
