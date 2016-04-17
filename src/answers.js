@@ -170,9 +170,8 @@ function getAllLetters(array) {
   return arr.concat.apply([], arr).sort();
 }
 
-function removeCapitaLetters(string) {
-  var b = string.replace(/[^A-Z]/g, '');
-  return b;
+function removeCapitalLetters(string) {
+  return string.replace(/[A-Z]/g, '');
 }
 
 function roundUp(number) {
