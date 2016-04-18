@@ -195,12 +195,12 @@ function getDomainName(string) {
 function titleizeString(string) {
     var j = string.split(" ");
     for (var i = 0; i < j.length; i++) {
-      if(j[i].length >= 4) {
-      j[i] = j[i].charAt(0).toUpperCase() + j[i].substr(1);
-     }
-     var b = j.join(" ");
-   }
-  return b.charAt(0).toUpperCase() + b.substr(1);
+        if (j[i].length >= 4) {
+            j[i] = j[i].charAt(0).toUpperCase() + j[i].substr(1);
+        }
+        var b = j.join(" ");
+    }
+    return b.charAt(0).toUpperCase() + b.substr(1);
 }
 
 function getSquareRoot(number) {
