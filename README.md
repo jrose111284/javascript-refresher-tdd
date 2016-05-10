@@ -1,6 +1,7 @@
 JavaScript Refresher
 =======================
-
+##comleted
+![jasmine test](./pic.png "jasmine")
 # Instructions
 ```
 git clone git@github.com:jrose111284/javascript-refresher-tdd.git

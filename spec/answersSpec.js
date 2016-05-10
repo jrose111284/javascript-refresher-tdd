@@ -133,9 +133,9 @@ describe('JavaScript Refresher', function() {
   });
 
   it('formats date nicely', function() {
-    n = formatDateNicely(Date(2016, 14, 4));
+    n = formatDateNicely(Date(2016, 10, 5));
 
-    expect(n).toEqual('4/15/2016');
+    expect(n).toEqual('5/10/2016');
   });
 
   it('gets a domain name from an email address', function() {
